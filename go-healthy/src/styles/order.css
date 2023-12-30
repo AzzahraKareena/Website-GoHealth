@@ -1,0 +1,122 @@
+/* styles.module.css atau nama file sesuai kebutuhan */
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.status-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.status-item {
+    text-align: center;
+}
+
+.status-item img {
+    margin-bottom: 10px;
+}
+
+.order-details {
+    margin-top: 20px;
+}
+
+.tableTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the order details */
+  .orderDetails {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the order status icons and container */
+  .statusContainer {
+    margin-top: 20px;
+  }
+  
+  .statusRow {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .statusCol {
+    flex: 1;
+  }
+  
+  .statusIcon {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+  }
+  /* order.css */
+
+.tableTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Set the color to your preference */
+  }
+  
+  .orderDetails {
+    margin-bottom: 20px;
+  }
+  
+  .statusContainer {
+    margin-top: 20px;
+  }
+  
+  .statusRow {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .statusCol {
+    flex: 1;
+  }
+  
+  .statusIcon {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .confirmButtonReceived {
+    background-color: #28a745;
+    color: #fff;
+    border: 1px solid #218838;
+  }
+
+  .orangeButton {
+    background-color: orange;
+    color: white; /* Mengatur warna teks agar kontras dengan latar belakang */
+    /* Anda juga dapat menyesuaikan properti lain sesuai kebutuhan */
+  }
+  
+  
+  /* Add more styles as needed */
+  
+
+/* order.css */
+
+/* Tambahkan kelas tambahan untuk warna dan pinggiran button */
+/* Tambahkan styling untuk tombol "Pesanan Diterima" */
+.confirmButtonReceived {
+    background-color: orange;
+    color: white;
+  }
+  
+  
+  .confirmButtonReceived:hover {
+    background-color: darkorange; /* Warna latar belakang saat tombol diarahkan */
+  }
+  
+  
+  /* Menerapkan gaya khusus untuk button "Pesanan Diterima" */
+  
